@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	vr articleContainer = $(".article-container");
+	var articleContainer = $(".article-container");
 	$(document).on("click", ".btn.save", handleArticleSave);
 	$(document).on("click", "scrape-new", handleArticleScrape);
 
